@@ -14,7 +14,7 @@ def config = [
     MY_GIT_BRANCH: "",            // Defaults to "main" if not set
 
     // Update Image Tag in GitHub
-    EXECUTE_UPDATE_IMAGE_TAG_GITHUB_STAGE: "no",
+    EXECUTE_UPDATE_IMAGE_TAG_GITHUB_STAGE: "yes",
     GIT_DEPLOY_HTTPS_CREDS: "git-deploy-https-creds",
     GIT_REPO_NAME: "Image-Update-Check",
     VERSION_CONTROL_SYSTEM: "github",          // required (github/gitlab)  Defaults to 'github'
