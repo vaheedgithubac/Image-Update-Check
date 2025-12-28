@@ -18,7 +18,6 @@ def config = [
     DOCKER_IMAGE: "expense-backend:abcd123",
     GIT_DEPLOY_HTTPS_CREDS: "git-deploy-https-creds",
     GIT_REPO_NAME: "Image-Update-Check",
-    GIT_BRANCH_NAME: "main",
     VERSION_CONTROL_SYSTEM: "github",          // required (github/gitlab)  Defaults to 'github'
     HELM_VALUES_FILE: "helm/values.yml" ,      // required if you want to update helm values file
     DEPLOYMENT_FILE: ""                        // required if you want to update deployment file
