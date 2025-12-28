@@ -17,9 +17,9 @@ def config = [
     EXECUTE_UPDATE_IMAGE_TAG_GITHUB_STAGE: "no",
     GIT_DEPLOY_HTTPS_CREDS: "git-deploy-https-creds",
     GIT_REPO_NAME: "Image-Update-Check",
-    VERSION_CONTROL_SYSTEM: "github",        // required (github/gitlab)  Defaults to 'github'
+    VERSION_CONTROL_SYSTEM: "github",          // required (github/gitlab)  Defaults to 'github'
     HELM_VALUES_FILE: "helm/values.yml" ,      // required if you want to update helm values file
-    DEPLOYMENT_FILE: "",                                                 // required if you want to update deployment file
+    DEPLOYMENT_FILE: ""                        // required if you want to update deployment file
   ]
 
 PIPELINES/PIPELINE_NODEJS(config)
