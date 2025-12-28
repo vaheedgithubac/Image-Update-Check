@@ -1,6 +1,6 @@
 image:
   registryUsername: vaheeddockerhub
-  imageVersion: f4fb132
+  imageVersion: f00dd7d
 
 deployment:
   replicas: 1
