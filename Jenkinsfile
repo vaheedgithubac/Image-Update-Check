@@ -22,4 +22,4 @@ def config = [
     DEPLOYMENT_FILE: ""                        // required if you want to update deployment file
   ]
 
-PIPELINES/PIPELINE_NODEJS(config)
+PIPELINE_NODEJS(config)
