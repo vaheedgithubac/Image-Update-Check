@@ -45,7 +45,7 @@ spec:
       # ──────────────── App Container ────────────────    
       containers:
       - name: expense-backend-cont
-        image: vaheeddockerhub/expense-backend:afdaccc
+        image: vaheeddockerhub/expense-backend:0944e81
         imagePullPolicy: Always
 
         ports:
