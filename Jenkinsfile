@@ -21,7 +21,7 @@ def config = [
     VERSION_CONTROL_SYSTEM: "github",          // required (github/gitlab)  Defaults to 'github'
     HELM_VALUES_FILE: "helm/values.yml" ,      // required if you want to update helm values file
     DEPLOYMENT_FILE: "",        // "kubernetes/deployment-svc.yml"                        // required if you want to update deployment file
-    HELM_IMAGE_VERSION_KEY: "imageVersion"        // required
+    //HELM_IMAGE_VERSION_KEY: "imageVersion"        // required
   ]
 
 PIPELINE_NODEJS(config)
