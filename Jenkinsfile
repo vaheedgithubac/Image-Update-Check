@@ -15,7 +15,7 @@ def config = [
 
     // Update Image Tag in GitHub
     EXECUTE_UPDATE_IMAGE_TAG_GITHUB_STAGE: "yes",
-    DOCKER_IMAGE: "expense-backend:abcd123",
+    DOCKER_IMAGE: "vaheeddockerhub/expense-backend:1.0.0",
     GIT_DEPLOY_HTTPS_CREDS: "git-deploy-https-creds",
     GIT_REPO_NAME: "Image-Update-Check",
     VERSION_CONTROL_SYSTEM: "github",          // required (github/gitlab)  Defaults to 'github'
